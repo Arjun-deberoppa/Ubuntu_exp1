@@ -1,0 +1,149 @@
+arjun-senpai@arjunsenpai-virtual-machine:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+arjun-senpai@arjunsenpai-virtual-machine:~$ pwd
+/home/arjun-senpai
+arjun-senpai@arjunsenpai-virtual-machine:~$ cd Desktop
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ mkdir arjun
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ cd arjun
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ vi file1
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ cat file1
+india is my country.
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ^C
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/ararjunarjun-senpai@arjunsenarjun-senpai@arjunsenpai-arjun-senparjun-senpai@arjunsenpai-virtual-machine:~/Darjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ vi file1
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ls
+file1
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ cp file1 file2
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ls
+file1  file2
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ cat file2
+india is my country.
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ^C
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ^C
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ rm file1
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ls
+file2
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ mv file2 file3
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ ls
+file3
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjunarjun-senpai@arjunsenpaarjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ mv file3 -/Desktop/test2
+mv: invalid option -- '/'
+Try 'mv --help' for more information.
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktoparjunarjun-senpai@arjunsenpaiarjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ mv file3 ~/Desktop/test2
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjarjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjarjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ c
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ cd ..
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ cd ..
+arjun-senpai@arjunsenpai-virtual-machine:~$ cd Desktop
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ rm test2
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ rmarjun
+rmarjun: command not found
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ rm arjun
+rm: cannot remove 'arjun': Is a directory
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ rmdir arjun
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ mkdir arjun
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop$ cd arjun
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ vi file1
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ cat file1
+
+D
+hello how are you. I am good.
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ grep hello file1
+hello how are you. I am good.
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ man grep
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ history
+    1  ls
+    2  pwd
+    3  cd Desktop
+    4  pwd
+    5  mkdir test1
+    6  mkdir test2
+    7  cd test1
+    8  pwd
+    9  vl file1
+   10  sudo apt install atfs
+   11  vl file1
+   12  vi file1
+   13  ls
+   14  pwd
+   15  cd desktop
+   16  mkdir test1
+   17  rmdir test1
+   18  ls
+   19  pwd
+   20  cd Desktop
+   21  mkdir test1
+   22  cd test1
+   23  vi file1
+   24  ls
+   25  pwd
+   26  cd Desktop
+   27  mkdir test1
+   28  cd test1
+   29  vi file1
+   30  ls
+   31  pwd
+   32  cd Desktop
+   33  rmdir test1
+   34  mkdir test2
+   35  vi test2
+   36  ls
+   37  pwd
+   38  cd Desktop
+   39  mkdir arjun
+   40  vi file1
+   41  cat file1
+   42  ls
+   43  pwd
+   44  cd Desktop
+   45  mkdir arjun
+   46  cd arjun
+   47  vi file1
+   48  cat file1
+   49  vi file1
+   50  ls
+   51  cp file1 file2
+   52  ls
+   53  cat file2
+   54  rm file1
+   55  ls
+   56  mv file2 file3
+   57  ls
+   58  mv file3 -/Desktop/test2
+   59  mv file3 ~/Desktop/test2
+   60  cd ..
+   61  cd Desktop
+   62  rm test2
+   63  rmarjun
+   64  rm arjun
+   65  rmdir arjun
+   66  mkdir arjun
+   67  cd arjun
+   68  vi file1
+   69  cat file1
+   70  grep hello file1
+   71  man grep
+   72  history
+arjun-senpai@arjunsenpai-virtual-machine:~/Desktop/arjun$ cd
+arjun-senpai@arjunsenpai-virtual-machine:~$ ls -al
+total 76
+drwxr-xr-x 15 arjun-senpai arjun-senpai 4096 Feb 19 01:32 .
+drwxr-xr-x  3 root         root         4096 Feb 19 00:42 ..
+-rw-------  1 arjun-senpai arjun-senpai  346 Feb 19 01:45 .bash_history
+-rw-r--r--  1 arjun-senpai arjun-senpai  220 Feb 19 00:42 .bash_logout
+-rw-r--r--  1 arjun-senpai arjun-senpai 3771 Feb 19 00:42 .bashrc
+drwx------ 10 arjun-senpai arjun-senpai 4096 Feb 19 00:49 .cache
+drwx------ 10 arjun-senpai arjun-senpai 4096 Feb 19 00:49 .config
+drwxr-xr-x  3 arjun-senpai arjun-senpai 4096 Feb 19 02:14 Desktop
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Documents
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Downloads
+drwx------  3 arjun-senpai arjun-senpai 4096 Feb 19 00:52 .gnupg
+drwxr-xr-x  3 arjun-senpai arjun-senpai 4096 Feb 19 00:48 .local
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Music
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Pictures
+-rw-r--r--  1 arjun-senpai arjun-senpai  807 Feb 19 00:42 .profile
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Public
+drwx------  2 arjun-senpai arjun-senpai 4096 Feb 19 00:52 .ssh
+-rw-r--r--  1 arjun-senpai arjun-senpai    0 Feb 19 01:28 .sudo_as_admin_successful
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Templates
+drwxr-xr-x  2 arjun-senpai arjun-senpai 4096 Feb 19 00:48 Videos
+arjun-senpai@arjunsenpai-virtual-machine:~$ 
+
